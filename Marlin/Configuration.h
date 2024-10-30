@@ -78,7 +78,7 @@
 #define SHOW_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
-//#define SHOW_CUSTOM_BOOTSCREEN
+#define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
 //#define CUSTOM_STATUS_SCREEN_IMAGE
@@ -667,9 +667,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define  DEFAULT_Kp 28.61
-    #define  DEFAULT_Ki 2.43
-    #define  DEFAULT_Kd 84.38
+    #define  DEFAULT_Kp 32.33
+    #define  DEFAULT_Ki 4.03
+    #define  DEFAULT_Kd 64.88
   #endif
 #endif
 
@@ -1173,7 +1173,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 81, 81, 2552, 315.2 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79, 79, 2552, 315.2 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
